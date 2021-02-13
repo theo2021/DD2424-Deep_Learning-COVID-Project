@@ -12,6 +12,8 @@ Our  model  builds  upon  well  established  architectures  for  robustness  and
 
 Our Deep Neural Network approach produced noteworthy results, showcasing great potential androbustness in diagnostic tasks.  Its latent representation was able to properly separate the classesand created distinct clusters, by producing a new vector space that can model sample characteristicsmore accurately.  Furthermore, we showed that the network can be utilized for other tasks, not justdiscriminative,  by  applying  SOMs  to  uncover  class  relationships  and  using  heatmaps  (CAM)  tohighlight the affected region.  Using the latter, the network’s decision can be investigated to avoidoverfitting due to data set particularities (e.g. small and unbalanced data sets). Our experiments showthat an effective way of avoiding this is using pre-trained models, as they initialize the networks inbetter regions of the learning space, avoiding such undesirable overfit solutions.
 
+Detailed roport availiable here] :https://github.com/theo2021/DD2424-Deep_Learning-COVID-Project/blob/master/Deep_Learning_Project_Group_58.pdf
+
 ## Results on ChestX14 dataset
 ### Roc Curves
 <img src="figures/totalTest_DenseNet.png">
